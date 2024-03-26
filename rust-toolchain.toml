@@ -1,0 +1,5 @@
+[toolchain]
+# Keep in sync w/ Cargo.toml
+channel = "1.77.0"
+components = ["cargo", "clippy", "rustfmt"]
+targets = ["wasm32-unknown-unknown"]
